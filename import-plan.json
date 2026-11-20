@@ -1,0 +1,523 @@
+{
+  "source_repository": "https://github.com/cax6505/DraftForge",
+  "source_commit": "2f97a3e4664fa73cb49f235709c5b1718cdd2352",
+  "destination_repository": "https://github.com/cax6505/DraftPlay",
+  "note": "Import each batch on its actual day. Future batches are not automatically scheduled. Source files are copied unchanged.",
+  "batches": [
+    {
+      "day": 1,
+      "planned_date": "2026-11-21",
+      "description": "Project configuration and dependencies",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha": "5ef6a520780202a1d6addd833d800ccb1ecac0bb"
+        },
+        {
+          "path": "components.json",
+          "sha": "f382eb79e22a42ad32685df41f70ea739f73d65d"
+        },
+        {
+          "path": "eslint.config.mjs",
+          "sha": "05e726d1b4201bc8c7716d2b058279676582e8c0"
+        },
+        {
+          "path": "next.config.mjs",
+          "sha": "10d1ed1fb854438a48f5ba16fb19f5542762ac02"
+        },
+        {
+          "path": "package-lock.json",
+          "sha": "4a3b42f5e6b573bfc57ac50060c0ddf2589e661a"
+        },
+        {
+          "path": "package.json",
+          "sha": "78b3995dd604796e5df95d8ac4e80b32e6ab299b"
+        },
+        {
+          "path": "postcss.config.mjs",
+          "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha": "3a13f90a773b0facb675bf5b1a8239c8f33d36f5"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha": "8bd0e39085d5260e7f8faffcad2fdc45e10aef33"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "planned_date": "2026-11-22",
+      "description": "Database scripts and player datasets",
+      "files": [
+        {
+          "path": "Ipl players dataset/3100_players.json",
+          "sha": "477f2730fe6afe6aa77f8f1fe051c431a1b7bed0"
+        },
+        {
+          "path": "Ipl players dataset/README.md",
+          "sha": "a7e8141ad184cc2369e3b5e56c595619ab4be93e"
+        },
+        {
+          "path": "Ipl players dataset/auction_all_years.csv",
+          "sha": "9501aa68e8655856ff3e336c0b78bcfcaafd21f9"
+        },
+        {
+          "path": "Ipl players dataset/auction_with_performance.csv",
+          "sha": "a624c019aa4cf14903843d89143dea439dcc2ae1"
+        },
+        {
+          "path": "Ipl players dataset/cleaned_players.json",
+          "sha": "575ef48ad3a8ac2ed09924207da6bfdc4bed728d"
+        },
+        {
+          "path": "Ipl players dataset/ipl_all_time_auctions.csv",
+          "sha": "3e719c02221299d74570f941f930a9aee2ed5a60"
+        },
+        {
+          "path": "Ipl players dataset/ipl_players_2026.csv",
+          "sha": "03aa164c03e57f8785fee0055711282c685016c9"
+        },
+        {
+          "path": "Ipl players dataset/ipl_players_2026.json",
+          "sha": "4152c35891bbf2cb57d4ecf54bd475cbf70eaaa2"
+        },
+        {
+          "path": "Ipl players dataset/ipl_rules_and_config.json",
+          "sha": "46888dd318ee6614a9895865ec2fa571f1d6b849"
+        },
+        {
+          "path": "Ipl players dataset/unique_players.json",
+          "sha": "983e780da271a3906518e3aac67758c8906c05ec"
+        },
+        {
+          "path": "scripts/01-create-players-table.sql",
+          "sha": "418f44ca1c8ddcbb30c407189cd9c5c5628406e5"
+        },
+        {
+          "path": "scripts/02-create-teams-and-players.sql",
+          "sha": "e8dcea6c67ce7aba5d8ea4731571f73a16d16265"
+        },
+        {
+          "path": "scripts/03-setup-auction-rooms.sql",
+          "sha": "6e8415e184b0d1475ef3c9c0e580c440f26e11c2"
+        },
+        {
+          "path": "scripts/04-enable-realtime.sql",
+          "sha": "31b21d1d6fcba794f61b7fe69b99024c5b1d9440"
+        },
+        {
+          "path": "scripts/05-add-timer.sql",
+          "sha": "f4a675c8fc4aaae81284bbb168ae1d0373085800"
+        },
+        {
+          "path": "scripts/06-atomic-bids.sql",
+          "sha": "3d4e5787ed814c2f38e703eabc14aa361b6b07e6"
+        },
+        {
+          "path": "scripts/07-squad-limits.sql",
+          "sha": "e5eacffd4f1c88c11bea8450853635293881018e"
+        },
+        {
+          "path": "scripts/08-cleanup-duplicates.sql",
+          "sha": "036a4f93768d2481e0d1240e12a327f8f4e27b73"
+        },
+        {
+          "path": "scripts/09-add-auction-mode.sql",
+          "sha": "ff9109204203f789e081d30eafc2411c67105c75"
+        },
+        {
+          "path": "scripts/10-room-codes.sql",
+          "sha": "6f70789a203c2d8d78c742b12cf4f47c19f4dd5c"
+        },
+        {
+          "path": "scripts/11-room-sold-players.sql",
+          "sha": "f83f9989eb530d49414b14d24a03235a23af38ff"
+        },
+        {
+          "path": "scripts/12-transactional-advance.sql",
+          "sha": "d7f843134bfa0078ff2fcbaf5e04fadc5ee8d425"
+        },
+        {
+          "path": "scripts/13-add-is-private.sql",
+          "sha": "12fa3dc7ea630bc7ccbee2fe0b9753ed103a7e85"
+        },
+        {
+          "path": "scripts/check-columns.ts",
+          "sha": "cd30067f7f12326ac9161ada9a4c7b79fdd0c463"
+        },
+        {
+          "path": "scripts/clean-player-data.ts",
+          "sha": "9afee4f8c01e5b6c9b910b24346b67dc6710d53a"
+        },
+        {
+          "path": "scripts/convert_csv_to_json.py",
+          "sha": "be1d1ebd2235783a53ac97ff0ee35a1c39c69a83"
+        },
+        {
+          "path": "scripts/inspect-db.ts",
+          "sha": "29f364452789d246af01302103f8ed76fcf7f406"
+        },
+        {
+          "path": "scripts/seed-cleaned.ts",
+          "sha": "63c2737341fb20a532192ea04695c2883eb2240d"
+        },
+        {
+          "path": "scripts/seed-dataset.ts",
+          "sha": "2f4efbbcf5514b59c2ddb1fd7b2f9d1f3a547010"
+        },
+        {
+          "path": "scripts/seed-huge.ts",
+          "sha": "f6a54f9f4c49669cf879a763e9c1cd0f51242368"
+        },
+        {
+          "path": "scripts/seed_huge.py",
+          "sha": "34d027883184d4ad7ce92813c2718e67f2bde188"
+        },
+        {
+          "path": "scripts/verify-rpc.ts",
+          "sha": "2be4e886f9902e20f94e01f3e8ad1ed3f3178f55"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "planned_date": "2026-11-23",
+      "description": "Shared logic and types",
+      "files": [
+        {
+          "path": "lib/auction-engine.ts",
+          "sha": "ac9b8fb8e9460d94d280918ae14b80c27efbf525"
+        },
+        {
+          "path": "lib/design-tokens.ts",
+          "sha": "64d0115cd279789e073badef2673eb66822a42d2"
+        },
+        {
+          "path": "lib/supabase.ts",
+          "sha": "9654c7f263870d0d060a4acad931bf53c5eef3f1"
+        },
+        {
+          "path": "lib/types/player.ts",
+          "sha": "7380076fa847e4d2c8da006e4cdb4ce02b3318ed"
+        },
+        {
+          "path": "lib/utils.ts",
+          "sha": "bd0c391ddd1088e9067844c48835bf4abcd61783"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "planned_date": "2026-11-24",
+      "description": "Components and static assets",
+      "files": [
+        {
+          "path": "components/auction/ActivePlayerCard.tsx",
+          "sha": "ac34e4c462e0dc0bda9d74404c83b7f017d3c616"
+        },
+        {
+          "path": "components/auction/AuctionContext.tsx",
+          "sha": "c0fadeffc9963f7eecde58d8811de084406d0fac"
+        },
+        {
+          "path": "components/auction/AuctionHeader.tsx",
+          "sha": "c1828fbaff75e78e65ebcb3e198c193b6f5da969"
+        },
+        {
+          "path": "components/auction/AuctionLobby.tsx",
+          "sha": "a62b770e956c2ea509976a748ab062e51e9c26c9"
+        },
+        {
+          "path": "components/auction/AuctionOverlays.tsx",
+          "sha": "e6abb40ce74619ce2c6e6e6054d9e42fe362cf68"
+        },
+        {
+          "path": "components/auction/AuctionTabs.tsx",
+          "sha": "2f172726f20e0b90c35be0bb7e27229e49d67fc6"
+        },
+        {
+          "path": "components/auction/BidControls.tsx",
+          "sha": "18c13402dd6150710e42106f8a5ca59b5fe0221e"
+        },
+        {
+          "path": "components/auction/ErrorBoundary.tsx",
+          "sha": "4efaffccdd828722296f1b7c6d936809f64c7ea4"
+        },
+        {
+          "path": "components/auction/MySquadDrawer.tsx",
+          "sha": "610054631997327d701ef26d379c79255c6a9807"
+        },
+        {
+          "path": "components/auction/TeamsScoreboard.tsx",
+          "sha": "9725b60ba294ff35c45d5b50c533af200f8541d5"
+        },
+        {
+          "path": "components/auction/UpcomingQueue.tsx",
+          "sha": "8a861cb5d6ebfe79df31f86122b9798ae34ca8a3"
+        },
+        {
+          "path": "components/layout/Footer.tsx",
+          "sha": "025181cdca57fbb13982dadf990c898d9ca8bd1f"
+        },
+        {
+          "path": "components/layout/Navbar.tsx",
+          "sha": "4302d2f249ef261924d6e0999d6919bd054d4b8c"
+        },
+        {
+          "path": "components/players/ClientDashboard.tsx",
+          "sha": "076da9391530751852338f407cd05c97a74b21f3"
+        },
+        {
+          "path": "components/players/PlayerCard.tsx",
+          "sha": "c1bdc470224d342ebe59faea0d1a57e002c9cce2"
+        },
+        {
+          "path": "components/ui/AnimatedPage.tsx",
+          "sha": "68dbc181a59aa94391c0bf3c992127b717530a38"
+        },
+        {
+          "path": "components/ui/Confetti.tsx",
+          "sha": "ae444ae1fd0248043d9eec8664607f0703ff2afc"
+        },
+        {
+          "path": "components/ui/FeatureCard.tsx",
+          "sha": "3392fce226fabb06988751a0dbbb58327d5be120"
+        },
+        {
+          "path": "components/ui/FranchiseCard.tsx",
+          "sha": "a53c867093c632c8cf77949a226e92255264a0eb"
+        },
+        {
+          "path": "components/ui/LiveBidTicker.tsx",
+          "sha": "4404641ac3aab3854028569ee338e72615ce2bd3"
+        },
+        {
+          "path": "components/ui/PlayerAvatar.tsx",
+          "sha": "54bcf524c3ab999c856350e04f28a285d614956d"
+        },
+        {
+          "path": "components/ui/SegmentedControl.tsx",
+          "sha": "3233ce9d32804ac46554848cea1682c01fc389b3"
+        },
+        {
+          "path": "components/ui/StepIndicator.tsx",
+          "sha": "7364851942fd02871d006ac28e5cc7ffb5a0c605"
+        },
+        {
+          "path": "components/ui/TeamLogo.tsx",
+          "sha": "e445239458be682128e2f7a9c0a13b226736cdd0"
+        },
+        {
+          "path": "components/ui/badge.tsx",
+          "sha": "f76adbb8f83cf86e3aeea6ce6958c14ca67aad7f"
+        },
+        {
+          "path": "components/ui/button.tsx",
+          "sha": "76b83b8cf3488016646f6875a157469b242e0033"
+        },
+        {
+          "path": "components/ui/card.tsx",
+          "sha": "233014138e5feba4fa2a5217ba58ea06e1687736"
+        },
+        {
+          "path": "components/ui/input.tsx",
+          "sha": "ec3ee9e307a695c3fec537a4ff355099182de815"
+        },
+        {
+          "path": "components/ui/scroll-area.tsx",
+          "sha": "84c1e9fbb05bc2af79ed1ba447d38a419815fcab"
+        },
+        {
+          "path": "components/ui/tabs.tsx",
+          "sha": "bc16e15d0ad093421e101d5d7875966d9f339526"
+        },
+        {
+          "path": "public/file.svg",
+          "sha": "004145cddf3f9db91b57b9cb596683c8eb420862"
+        },
+        {
+          "path": "public/globe.svg",
+          "sha": "567f17b0d7c7fb662c16d4357dd74830caf2dccb"
+        },
+        {
+          "path": "public/logos/csk.png",
+          "sha": "d5674d72e8333fe91ece0b4c3fce648fa23cbb58"
+        },
+        {
+          "path": "public/logos/csk.svg",
+          "sha": "29404a6cff71f44bbc40f3f4362cba3fbff295e7"
+        },
+        {
+          "path": "public/logos/dc.png",
+          "sha": "6a5ae19ba06f986c768618b0d78c6da28301a0c6"
+        },
+        {
+          "path": "public/logos/dc.svg",
+          "sha": "ea3fb57e5128df71ccadff61cf655cfcfec79a09"
+        },
+        {
+          "path": "public/logos/gt.png",
+          "sha": "878c1fad34b7f85fe7c69dee8efff863a5949e7c"
+        },
+        {
+          "path": "public/logos/gt.svg",
+          "sha": "fd48974dfed2fbb7aec34e12260143116620a5f4"
+        },
+        {
+          "path": "public/logos/kkr.png",
+          "sha": "16543299220065cca890dff5dcc110b2e63a946d"
+        },
+        {
+          "path": "public/logos/kkr.svg",
+          "sha": "41b10c124f62a442e15c06eea7eba75ac7f7b0fa"
+        },
+        {
+          "path": "public/logos/lsg.png",
+          "sha": "04dc9f95955102c131ad3f4b38b008293f7dbfe8"
+        },
+        {
+          "path": "public/logos/lsg.svg",
+          "sha": "88a837d8e5a7f79a430c95bc047d73f1dd79be2f"
+        },
+        {
+          "path": "public/logos/mi.png",
+          "sha": "b42b45e66ca9e951834b5904f1d1a4916a97903a"
+        },
+        {
+          "path": "public/logos/mi.svg",
+          "sha": "4b4aed653b272d362115a0c91cdffe1a019a8024"
+        },
+        {
+          "path": "public/logos/pbks.png",
+          "sha": "302b7ed23dd559436110e7a7e475dbfc6cc71009"
+        },
+        {
+          "path": "public/logos/pbks.svg",
+          "sha": "7f00d25788eaf100fbb976664409d78a4559ff94"
+        },
+        {
+          "path": "public/logos/rcb.png",
+          "sha": "35ed15437c562c41d3f38a9df03ba8487b7dccf8"
+        },
+        {
+          "path": "public/logos/rcb.svg",
+          "sha": "49efc64a42689e5f61b28ad818a8a7df06377dc9"
+        },
+        {
+          "path": "public/logos/rr.png",
+          "sha": "8579c97e825954cf6a4c98d553239617ac818cdb"
+        },
+        {
+          "path": "public/logos/rr.svg",
+          "sha": "792f5d096b541b1a9f7002b904299f80ac2aa6c6"
+        },
+        {
+          "path": "public/logos/srh.png",
+          "sha": "a3613a162ddfb8f3921489b1de1283f94562ac8b"
+        },
+        {
+          "path": "public/logos/srh.svg",
+          "sha": "f5ed6cc71d652e897603369940023802a0782a20"
+        },
+        {
+          "path": "public/next.svg",
+          "sha": "5174b28c565c285e3e312ec5178be64fbeca8398"
+        },
+        {
+          "path": "public/vercel.svg",
+          "sha": "77053960334e2e34dc584dea8019925c3b4ccca9"
+        },
+        {
+          "path": "public/window.svg",
+          "sha": "b2b2a44f6ebc70c450043c05a002e7a93ba5d651"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "planned_date": "2026-11-25",
+      "description": "Application routes, pages and documentation",
+      "files": [
+        {
+          "path": "CLAUDE.md",
+          "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5"
+        },
+        {
+          "path": "README.md",
+          "sha": "76cb50b6f54baffe5150542ab451752e4a8738a2"
+        },
+        {
+          "path": "app/api/health/route.ts",
+          "sha": "2f01c7b6ef77aacd5b1bbeb93a1d90fbe343c859"
+        },
+        {
+          "path": "app/api/rooms/[code]/advance/route.ts",
+          "sha": "02908e591eaaec372c7496b44e7a01beaad3e608"
+        },
+        {
+          "path": "app/api/rooms/[code]/join/route.ts",
+          "sha": "da6aa2e1922f9e62e0ab42df8f785553ae8b586f"
+        },
+        {
+          "path": "app/api/rooms/[code]/route.ts",
+          "sha": "f632d1e63a7d91998e5b9439fcfcb38e05bc4d77"
+        },
+        {
+          "path": "app/api/rooms/route.ts",
+          "sha": "97072bd30bc133fc403206d93ef421021b16c87a"
+        },
+        {
+          "path": "app/favicon.ico",
+          "sha": "718d6fea4835ec2d246af9800eddb7ffb276240c"
+        },
+        {
+          "path": "app/globals.css",
+          "sha": "243927258d498335022b13d40b2fac159c1303a8"
+        },
+        {
+          "path": "app/guide/GuideClientContent.tsx",
+          "sha": "6221f54d1555df9958153bbfe2bb3b7e9c869bc0"
+        },
+        {
+          "path": "app/guide/page.tsx",
+          "sha": "8fb61aaa9e598861b457a9db8105bdaadd222e1d"
+        },
+        {
+          "path": "app/layout.tsx",
+          "sha": "56c7c6258cacce2921ef5a61d756615e83563c0e"
+        },
+        {
+          "path": "app/page.tsx",
+          "sha": "db80d5bf7df4a2484f28228bc8cac24342f9f063"
+        },
+        {
+          "path": "app/players/page.tsx",
+          "sha": "e4c891f46551c9af2aebaab517c8f68af8065278"
+        },
+        {
+          "path": "app/rooms/[code]/auction/page.tsx",
+          "sha": "b280b399584f26db8b95b49363dbf281667ee914"
+        },
+        {
+          "path": "app/rooms/[code]/layout.tsx",
+          "sha": "1952448459e6d3b8b09f459bcc9618845183e458"
+        },
+        {
+          "path": "app/rooms/[code]/page.tsx",
+          "sha": "b62f62f5bd4f57fcb76cfe2ba575ad9fea628b79"
+        },
+        {
+          "path": "app/rooms/[code]/results/page.tsx",
+          "sha": "c6f965ac9c24cc98e8af019da4524251c1f65bab"
+        },
+        {
+          "path": "app/rooms/page.tsx",
+          "sha": "3e0d8fbcd00fd5e8ac28f8076a5b0808287a1ff8"
+        }
+      ]
+    }
+  ]
+}
