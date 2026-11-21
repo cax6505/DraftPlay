@@ -1,0 +1,4504 @@
+[
+  {
+    "id": "rishabh-pant",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "LHB",
+    "bowling_style": null,
+    "ipl_team_2026": "LSG",
+    "ipl_team_2025": "LSG",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": 2,
+    "sold_price_cr": 27,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET1",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2016,
+        "team": "DC",
+        "base_cr": 0.1,
+        "sold_cr": 1.9
+      },
+      {
+        "year": 2018,
+        "team": "DC",
+        "base_cr": 0.5,
+        "sold_cr": 8
+      },
+      {
+        "year": 2022,
+        "team": "DC",
+        "base_cr": 2,
+        "sold_cr": 16
+      },
+      {
+        "year": 2025,
+        "team": "LSG",
+        "base_cr": 2,
+        "sold_cr": 27
+      }
+    ]
+  },
+  {
+    "id": "virat-kohli",
+    "name": "Virat Kohli",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "RHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "RCB",
+    "ipl_team_2025": "RCB",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 21,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2008,
+        "team": "RCB",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Original squad"
+      },
+      {
+        "year": 2022,
+        "team": "RCB",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @15cr"
+      },
+      {
+        "year": 2025,
+        "team": "RCB",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @21cr"
+      }
+    ]
+  },
+  {
+    "id": "rohit-sharma",
+    "name": "Rohit Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "RHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "MI",
+    "ipl_team_2025": "MI",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 16.3,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2008,
+        "team": "DC",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Original squad"
+      },
+      {
+        "year": 2011,
+        "team": "MI",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Traded to MI"
+      },
+      {
+        "year": 2025,
+        "team": "MI",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @16.30cr"
+      }
+    ]
+  },
+  {
+    "id": "jasprit-bumrah",
+    "name": "Jasprit Bumrah",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "MI",
+    "ipl_team_2025": "MI",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 18,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2013,
+        "team": "MI",
+        "base_cr": 0.1,
+        "sold_cr": 0.1
+      },
+      {
+        "year": 2025,
+        "team": "MI",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      }
+    ]
+  },
+  {
+    "id": "ms-dhoni",
+    "name": "MS Dhoni",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "WK",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "CSK",
+    "ipl_team_2025": "CSK",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 4,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2008,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Original squad - Icon Player"
+      },
+      {
+        "year": 2022,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @12cr"
+      },
+      {
+        "year": 2025,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @4cr (uncapped)"
+      }
+    ]
+  },
+  {
+    "id": "shreyas-iyer",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "RHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "PBKS",
+    "ipl_team_2025": "PBKS",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": 2,
+    "sold_price_cr": 26.75,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET1",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2015,
+        "team": "DC",
+        "base_cr": 0.1,
+        "sold_cr": 2.6
+      },
+      {
+        "year": 2022,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 12.25
+      },
+      {
+        "year": 2025,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 26.75
+      }
+    ]
+  },
+  {
+    "id": "yashasvi-jaiswal",
+    "name": "Yashasvi Jaiswal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "LHB",
+    "bowling_style": "SLA",
+    "ipl_team_2026": "RR",
+    "ipl_team_2025": "RR",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 18,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2020,
+        "team": "RR",
+        "base_cr": 0.2,
+        "sold_cr": 2.4
+      },
+      {
+        "year": 2025,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      }
+    ]
+  },
+  {
+    "id": "suryakumar-yadav",
+    "name": "Suryakumar Yadav",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "MI",
+    "ipl_team_2025": "MI",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 16.35,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2012,
+        "team": "MI",
+        "base_cr": 0.1,
+        "sold_cr": 0.19
+      },
+      {
+        "year": 2018,
+        "team": "MI",
+        "base_cr": 0.2,
+        "sold_cr": 3.2
+      },
+      {
+        "year": 2025,
+        "team": "MI",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @16.35cr"
+      }
+    ]
+  },
+  {
+    "id": "hardik-pandya",
+    "name": "Hardik Pandya",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "MI",
+    "ipl_team_2025": "MI",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 16.35,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2015,
+        "team": "MI",
+        "base_cr": 0.1,
+        "sold_cr": 1
+      },
+      {
+        "year": 2022,
+        "team": "GT",
+        "base_cr": 2,
+        "sold_cr": 15
+      },
+      {
+        "year": 2024,
+        "team": "MI",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Trade from GT"
+      },
+      {
+        "year": 2025,
+        "team": "MI",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @16.35cr"
+      }
+    ]
+  },
+  {
+    "id": "rashid-khan",
+    "name": "Rashid Khan",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "LB",
+    "ipl_team_2026": "GT",
+    "ipl_team_2025": "GT",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 18,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2017,
+        "team": "SRH",
+        "base_cr": 0.3,
+        "sold_cr": 4
+      },
+      {
+        "year": 2018,
+        "team": "SRH",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @9.60cr"
+      },
+      {
+        "year": 2022,
+        "team": "GT",
+        "base_cr": 2,
+        "sold_cr": 15
+      },
+      {
+        "year": 2025,
+        "team": "GT",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      }
+    ]
+  },
+  {
+    "id": "shubman-gill",
+    "name": "Shubman Gill",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "RHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "GT",
+    "ipl_team_2025": "GT",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 16.5,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2018,
+        "team": "KKR",
+        "base_cr": 0.2,
+        "sold_cr": 1.8
+      },
+      {
+        "year": 2022,
+        "team": "GT",
+        "base_cr": 2,
+        "sold_cr": 8
+      },
+      {
+        "year": 2025,
+        "team": "GT",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @16.50cr"
+      }
+    ]
+  },
+  {
+    "id": "ruturaj-gaikwad",
+    "name": "Ruturaj Gaikwad",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "RHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "CSK",
+    "ipl_team_2025": "CSK",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 18,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "CSK",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2022,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @6cr"
+      },
+      {
+        "year": 2025,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      }
+    ]
+  },
+  {
+    "id": "ravindra-jadeja",
+    "name": "Ravindra Jadeja",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "LHB",
+    "bowling_style": "SLA",
+    "ipl_team_2026": "RR",
+    "ipl_team_2025": "CSK",
+    "contract_type_2026": "TRADED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 14,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2012,
+        "team": "CSK",
+        "base_cr": 0.1,
+        "sold_cr": 9.8
+      },
+      {
+        "year": 2014,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained"
+      },
+      {
+        "year": 2022,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @16cr"
+      },
+      {
+        "year": 2025,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      },
+      {
+        "year": 2026,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Traded to RR @14cr"
+      }
+    ]
+  },
+  {
+    "id": "sanju-samson",
+    "name": "Sanju Samson",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "CSK",
+    "ipl_team_2025": "RR",
+    "contract_type_2026": "TRADED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 18,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2013,
+        "team": "RR",
+        "base_cr": 0.3,
+        "sold_cr": 0.35
+      },
+      {
+        "year": 2018,
+        "team": "RR",
+        "base_cr": 1,
+        "sold_cr": 8
+      },
+      {
+        "year": 2022,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @14cr"
+      },
+      {
+        "year": 2025,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      },
+      {
+        "year": 2026,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Traded to CSK @18cr"
+      }
+    ]
+  },
+  {
+    "id": "arshdeep-singh",
+    "name": "Arshdeep Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "LHB",
+    "bowling_style": "LAF",
+    "ipl_team_2026": "PBKS",
+    "ipl_team_2025": "PBKS",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": 2,
+    "sold_price_cr": 18,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET1",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "PBKS",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2025,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 18
+      }
+    ]
+  },
+  {
+    "id": "yuzvendra-chahal",
+    "name": "Yuzvendra Chahal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "LB",
+    "ipl_team_2026": "PBKS",
+    "ipl_team_2025": "PBKS",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": 2,
+    "sold_price_cr": 18,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET2",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2014,
+        "team": "MI",
+        "base_cr": 0.1,
+        "sold_cr": 0.1
+      },
+      {
+        "year": 2014,
+        "team": "RCB",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Traded to RCB"
+      },
+      {
+        "year": 2022,
+        "team": "RR",
+        "base_cr": 2,
+        "sold_cr": 6.5
+      },
+      {
+        "year": 2025,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 18
+      }
+    ]
+  },
+  {
+    "id": "kl-rahul",
+    "name": "KL Rahul",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "DC",
+    "ipl_team_2025": "DC",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": 2,
+    "sold_price_cr": 14,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET2",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2014,
+        "team": "RCB",
+        "base_cr": 0.1,
+        "sold_cr": 1
+      },
+      {
+        "year": 2018,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 11
+      },
+      {
+        "year": 2022,
+        "team": "LSG",
+        "base_cr": 2,
+        "sold_cr": 17
+      },
+      {
+        "year": 2025,
+        "team": "DC",
+        "base_cr": 2,
+        "sold_cr": 14
+      }
+    ]
+  },
+  {
+    "id": "axar-patel",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "LHB",
+    "bowling_style": "SLA",
+    "ipl_team_2026": "DC",
+    "ipl_team_2025": "DC",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 16.5,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2014,
+        "team": "PBKS",
+        "base_cr": 0.3,
+        "sold_cr": 2.5
+      },
+      {
+        "year": 2019,
+        "team": "DC",
+        "base_cr": 1,
+        "sold_cr": 5
+      },
+      {
+        "year": 2022,
+        "team": "DC",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @9cr"
+      },
+      {
+        "year": 2025,
+        "team": "DC",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @16.50cr"
+      }
+    ]
+  },
+  {
+    "id": "kuldeep-yadav",
+    "name": "Kuldeep Yadav",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "LHB",
+    "bowling_style": "LB",
+    "ipl_team_2026": "DC",
+    "ipl_team_2025": "DC",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 13.25,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2012,
+        "team": "MI",
+        "base_cr": 0.1,
+        "sold_cr": 0.1
+      },
+      {
+        "year": 2014,
+        "team": "KKR",
+        "base_cr": 0.1,
+        "sold_cr": 0.25
+      },
+      {
+        "year": 2022,
+        "team": "DC",
+        "base_cr": 2,
+        "sold_cr": 2
+      },
+      {
+        "year": 2025,
+        "team": "DC",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @13.25cr"
+      }
+    ]
+  },
+  {
+    "id": "cameron-green",
+    "name": "Cameron Green",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "KKR",
+    "ipl_team_2025": null,
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 2,
+    "sold_price_cr": 25.2,
+    "auction_year": 2026,
+    "auction_set": "CAPPED",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2023,
+        "team": "MI",
+        "base_cr": 2,
+        "sold_cr": 17.5
+      },
+      {
+        "year": 2024,
+        "team": "MI",
+        "base_cr": 2,
+        "sold_cr": 17.5,
+        "note": "Retained for IPL 2024"
+      },
+      {
+        "year": 2026,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 25.2
+      }
+    ]
+  },
+  {
+    "id": "matheesha-pathirana",
+    "name": "Matheesha Pathirana",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "KKR",
+    "ipl_team_2025": "CSK",
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 2,
+    "sold_price_cr": 18,
+    "auction_year": 2026,
+    "auction_set": "CAPPED",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2023,
+        "team": "CSK",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2025,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @13cr"
+      },
+      {
+        "year": 2026,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 18
+      }
+    ]
+  },
+  {
+    "id": "prashant-veer",
+    "name": "Prashant Veer",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "batting_style": "RHB",
+    "bowling_style": "RFM",
+    "ipl_team_2026": "CSK",
+    "ipl_team_2025": null,
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 0.3,
+    "sold_price_cr": 14.2,
+    "auction_year": 2026,
+    "auction_set": "UNCAPPED",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2026,
+        "team": "CSK",
+        "base_cr": 0.3,
+        "sold_cr": 14.2
+      }
+    ]
+  },
+  {
+    "id": "kartik-sharma",
+    "name": "Kartik Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "batting_style": "LHB",
+    "bowling_style": "LFM",
+    "ipl_team_2026": "CSK",
+    "ipl_team_2025": null,
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 0.3,
+    "sold_price_cr": 14.2,
+    "auction_year": 2026,
+    "auction_set": "UNCAPPED",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2026,
+        "team": "CSK",
+        "base_cr": 0.3,
+        "sold_cr": 14.2
+      }
+    ]
+  },
+  {
+    "id": "jos-buttler",
+    "name": "Jos Buttler",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "GT",
+    "ipl_team_2025": "RR",
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 2,
+    "sold_price_cr": 15.75,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET1",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2016,
+        "team": "MI",
+        "base_cr": 1,
+        "sold_cr": 3
+      },
+      {
+        "year": 2019,
+        "team": "RR",
+        "base_cr": 2,
+        "sold_cr": 4.4
+      },
+      {
+        "year": 2022,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @8cr"
+      },
+      {
+        "year": 2025,
+        "team": "RR",
+        "base_cr": 2,
+        "sold_cr": 15.75
+      },
+      {
+        "year": 2026,
+        "team": "GT",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @15.75cr"
+      }
+    ]
+  },
+  {
+    "id": "kagiso-rabada",
+    "name": "Kagiso Rabada",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "GT",
+    "ipl_team_2025": "PBKS",
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 2,
+    "sold_price_cr": 10.75,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET1",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2017,
+        "team": "DC",
+        "base_cr": 0.5,
+        "sold_cr": 4.2
+      },
+      {
+        "year": 2020,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 9.25
+      },
+      {
+        "year": 2022,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 9.25
+      },
+      {
+        "year": 2025,
+        "team": "PBKS",
+        "base_cr": 2,
+        "sold_cr": 10.75,
+        "note": "Marquee Set 1"
+      },
+      {
+        "year": 2026,
+        "team": "GT",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @10.75cr"
+      }
+    ]
+  },
+  {
+    "id": "rinku-singh",
+    "name": "Rinku Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "LHB",
+    "bowling_style": null,
+    "ipl_team_2026": "KKR",
+    "ipl_team_2025": "KKR",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 13,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2018,
+        "team": "KKR",
+        "base_cr": 0.2,
+        "sold_cr": 0.8
+      },
+      {
+        "year": 2025,
+        "team": "KKR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @13cr"
+      }
+    ]
+  },
+  {
+    "id": "sunil-narine",
+    "name": "Sunil Narine",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "LHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "KKR",
+    "ipl_team_2025": "KKR",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 12,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2012,
+        "team": "KKR",
+        "base_cr": 0.3,
+        "sold_cr": 11.5
+      },
+      {
+        "year": 2014,
+        "team": "KKR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained"
+      },
+      {
+        "year": 2022,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 6
+      },
+      {
+        "year": 2025,
+        "team": "KKR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @12cr"
+      }
+    ]
+  },
+  {
+    "id": "nicholas-pooran",
+    "name": "Nicholas Pooran",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "LHB",
+    "bowling_style": null,
+    "ipl_team_2026": "LSG",
+    "ipl_team_2025": "LSG",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 21,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "PBKS",
+        "base_cr": 0.6,
+        "sold_cr": 4.8
+      },
+      {
+        "year": 2022,
+        "team": "SRH",
+        "base_cr": 1.5,
+        "sold_cr": 10.75
+      },
+      {
+        "year": 2025,
+        "team": "LSG",
+        "base_cr": 2,
+        "sold_cr": 21
+      }
+    ]
+  },
+  {
+    "id": "heinrich-klaasen",
+    "name": "Heinrich Klaasen",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "SRH",
+    "ipl_team_2025": "SRH",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 23,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2018,
+        "team": "SRH",
+        "base_cr": 0.3,
+        "sold_cr": 1.5
+      },
+      {
+        "year": 2022,
+        "team": "SRH",
+        "base_cr": 1,
+        "sold_cr": 5.25
+      },
+      {
+        "year": 2025,
+        "team": "SRH",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @23cr"
+      }
+    ]
+  },
+  {
+    "id": "pat-cummins",
+    "name": "Pat Cummins",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "SRH",
+    "ipl_team_2025": "SRH",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 18,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2014,
+        "team": "KKR",
+        "base_cr": 1,
+        "sold_cr": 3
+      },
+      {
+        "year": 2020,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 15.5
+      },
+      {
+        "year": 2024,
+        "team": "SRH",
+        "base_cr": 2,
+        "sold_cr": 20.5
+      },
+      {
+        "year": 2025,
+        "team": "SRH",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @18cr"
+      }
+    ]
+  },
+  {
+    "id": "abhishek-sharma",
+    "name": "Abhishek Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "LHB",
+    "bowling_style": "SLA",
+    "ipl_team_2026": "SRH",
+    "ipl_team_2025": "SRH",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 14,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "PBKS",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2022,
+        "team": "SRH",
+        "base_cr": 0.25,
+        "sold_cr": 6.5
+      },
+      {
+        "year": 2025,
+        "team": "SRH",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @14cr"
+      }
+    ]
+  },
+  {
+    "id": "travis-head",
+    "name": "Travis Head",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "LHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "SRH",
+    "ipl_team_2025": "SRH",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 14,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2024,
+        "team": "SRH",
+        "base_cr": 2,
+        "sold_cr": 6.8
+      },
+      {
+        "year": 2025,
+        "team": "SRH",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @14cr"
+      }
+    ]
+  },
+  {
+    "id": "mayank-yadav",
+    "name": "Mayank Yadav",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "LSG",
+    "ipl_team_2025": "LSG",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 11,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2023,
+        "team": "LSG",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2025,
+        "team": "LSG",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @11cr"
+      }
+    ]
+  },
+  {
+    "id": "jofra-archer",
+    "name": "Jofra Archer",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "RAF",
+    "ipl_team_2026": "RR",
+    "ipl_team_2025": "MI",
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 2,
+    "sold_price_cr": 12.5,
+    "auction_year": 2025,
+    "auction_set": "CAPPED",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2018,
+        "team": "RR",
+        "base_cr": 0.2,
+        "sold_cr": 7.2
+      },
+      {
+        "year": 2022,
+        "team": "MI",
+        "base_cr": 2,
+        "sold_cr": 8
+      },
+      {
+        "year": 2025,
+        "team": "MI",
+        "base_cr": 2,
+        "sold_cr": 12.5
+      },
+      {
+        "year": 2026,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @12.50cr"
+      }
+    ]
+  },
+  {
+    "id": "trent-boult",
+    "name": "Trent Boult",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "LAF",
+    "ipl_team_2026": "MI",
+    "ipl_team_2025": "MI",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 12.5,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2015,
+        "team": "DC",
+        "base_cr": 1.5,
+        "sold_cr": 2
+      },
+      {
+        "year": 2020,
+        "team": "MI",
+        "base_cr": 2,
+        "sold_cr": 14,
+        "note": "Trade from DC"
+      },
+      {
+        "year": 2022,
+        "team": "RR",
+        "base_cr": 2,
+        "sold_cr": 8
+      },
+      {
+        "year": 2025,
+        "team": "MI",
+        "base_cr": 2,
+        "sold_cr": 12.5
+      }
+    ]
+  },
+  {
+    "id": "shivam-dube",
+    "name": "Shivam Dube",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "LHB",
+    "bowling_style": "RFM",
+    "ipl_team_2026": "CSK",
+    "ipl_team_2025": "CSK",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 12,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "MI",
+        "base_cr": 0.5,
+        "sold_cr": 5
+      },
+      {
+        "year": 2023,
+        "team": "CSK",
+        "base_cr": 0.2,
+        "sold_cr": 4
+      },
+      {
+        "year": 2025,
+        "team": "CSK",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @12cr"
+      }
+    ]
+  },
+  {
+    "id": "sai-sudarshan",
+    "name": "Sai Sudarshan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "batting_style": "LHB",
+    "bowling_style": "SLA",
+    "ipl_team_2026": "GT",
+    "ipl_team_2025": "GT",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 8.5,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2023,
+        "team": "GT",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2025,
+        "team": "GT",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @8.50cr"
+      }
+    ]
+  },
+  {
+    "id": "varun-chakravarthy",
+    "name": "Varun Chakravarthy",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "OB",
+    "ipl_team_2026": "KKR",
+    "ipl_team_2025": "KKR",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 12,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "PBKS",
+        "base_cr": 0.2,
+        "sold_cr": 8.4
+      },
+      {
+        "year": 2022,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 8
+      },
+      {
+        "year": 2025,
+        "team": "KKR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @12cr"
+      }
+    ]
+  },
+  {
+    "id": "dhruv-jurel",
+    "name": "Dhruv Jurel",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "batting_style": "RHB",
+    "bowling_style": null,
+    "ipl_team_2026": "RR",
+    "ipl_team_2025": "RR",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 14,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2022,
+        "team": "RR",
+        "base_cr": 0.2,
+        "sold_cr": 0.2
+      },
+      {
+        "year": 2025,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @14cr"
+      }
+    ]
+  },
+  {
+    "id": "mohammed-shami",
+    "name": "Mohammed Shami",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "RHB",
+    "bowling_style": "RFM",
+    "ipl_team_2026": "LSG",
+    "ipl_team_2025": "SRH",
+    "contract_type_2026": "TRADED",
+    "base_price_cr": 2,
+    "sold_price_cr": 10,
+    "auction_year": 2025,
+    "auction_set": "MARQUEE_SET2",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2013,
+        "team": "KKR",
+        "base_cr": 0.1,
+        "sold_cr": 0.45
+      },
+      {
+        "year": 2016,
+        "team": "DD",
+        "base_cr": 0.5,
+        "sold_cr": 4
+      },
+      {
+        "year": 2022,
+        "team": "GT",
+        "base_cr": 2,
+        "sold_cr": 6.25
+      },
+      {
+        "year": 2025,
+        "team": "SRH",
+        "base_cr": 2,
+        "sold_cr": 10,
+        "note": "Marquee Set 2"
+      },
+      {
+        "year": 2026,
+        "team": "LSG",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Traded to LSG @10cr"
+      }
+    ]
+  },
+  {
+    "id": "mitchell-starc",
+    "name": "Mitchell Starc",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "batting_style": "LHB",
+    "bowling_style": "LAF",
+    "ipl_team_2026": "DC",
+    "ipl_team_2025": "KKR",
+    "contract_type_2026": "AUCTION",
+    "base_price_cr": 2,
+    "sold_price_cr": 24.75,
+    "auction_year": 2024,
+    "auction_set": "CAPPED",
+    "retention_cost_cr": null,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2014,
+        "team": "RCB",
+        "base_cr": 1,
+        "sold_cr": 3
+      },
+      {
+        "year": 2015,
+        "team": "MI",
+        "base_cr": 1,
+        "sold_cr": 5
+      },
+      {
+        "year": 2024,
+        "team": "KKR",
+        "base_cr": 2,
+        "sold_cr": 24.75
+      },
+      {
+        "year": 2026,
+        "team": "DC",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @11.75cr"
+      }
+    ]
+  },
+  {
+    "id": "riyan-parag",
+    "name": "Riyan Parag",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "batting_style": "RHB",
+    "bowling_style": "LB",
+    "ipl_team_2026": "RR",
+    "ipl_team_2025": "RR",
+    "contract_type_2026": "RETAINED",
+    "base_price_cr": null,
+    "sold_price_cr": null,
+    "auction_year": null,
+    "auction_set": "RETAINED",
+    "retention_cost_cr": 14,
+    "rtm_used": false,
+    "all_time_auctions": [
+      {
+        "year": 2019,
+        "team": "RR",
+        "base_cr": 0.2,
+        "sold_cr": 3.8
+      },
+      {
+        "year": 2022,
+        "team": "RR",
+        "base_cr": 0.2,
+        "sold_cr": 3.8
+      },
+      {
+        "year": 2025,
+        "team": "RR",
+        "base_cr": null,
+        "sold_cr": null,
+        "note": "Retained @14cr"
+      }
+    ]
+  },
+  {
+    "id": "P0403",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0621",
+    "name": "Manish Pandey",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0880",
+    "name": "Ravichandran Ashwin",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0659",
+    "name": "Mitchell Marsh",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0452",
+    "name": "Jaydev Unadkat",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1049",
+    "name": "Steven Smith",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0025",
+    "name": "Andre Russell",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.25,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0376",
+    "name": "Harpreet Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0352",
+    "name": "Glenn Maxwell",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0423",
+    "name": "Jason Holder",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0817",
+    "name": "Quinton De Kock",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0359",
+    "name": "Gurkeerat Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0070",
+    "name": "Ajinkya Rahane",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0330",
+    "name": "Faf Du Plessis",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0191",
+    "name": "Bhuvneshwar Kumar",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0510",
+    "name": "Karn Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0679",
+    "name": "Mohit Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0968",
+    "name": "Sandeep Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0167",
+    "name": "Ben Cutting",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0514",
+    "name": "Karun Nair",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0426",
+    "name": "Josh Hazlewood",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0291",
+    "name": "Deepak Hooda",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0383",
+    "name": "Harshal Patel",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0639",
+    "name": "Matt Henry",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0450",
+    "name": "Jayant Yadav",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0855",
+    "name": "Rahul Tewatia",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1026",
+    "name": "Shreyas Gopal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1140",
+    "name": "Vijay Shankar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1191",
+    "name": "Yuzvendra Singh Chahal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0285",
+    "name": "David Wiese",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0059",
+    "name": "Adam Milne",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0975",
+    "name": "Sarfaraz Naushad Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0632",
+    "name": "Marcus Stoinis",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0371",
+    "name": "Hanuma Vihari",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0734",
+    "name": "Nitish Rana",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0532",
+    "name": "Krunal Pandya",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0698",
+    "name": "Mustafizur Rahman",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0400",
+    "name": "Ishan Kishan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0795",
+    "name": "Praveen Dubey",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0061",
+    "name": "Adam Zampa",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0946",
+    "name": "Sam Billings",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0290",
+    "name": "Deepak Chahar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0460",
+    "name": "Jitesh Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0613",
+    "name": "Mahipal Lomror",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0947",
+    "name": "Sachin Baby",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0972",
+    "name": "Swapnil Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0871",
+    "name": "Rashid Khan Arman",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0673",
+    "name": "Mohammed Siraj",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0565",
+    "name": "Lockie Ferguson",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0193",
+    "name": "Billy Stanlake",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0702",
+    "name": "Nicolas Pooran",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0901",
+    "name": "Rovman Powell",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0535",
+    "name": "Kulwant Khejroliya",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0751",
+    "name": "Pratham Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0832",
+    "name": "Rahul Ajay Tripathi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0851",
+    "name": "Rahul Chahar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1008",
+    "name": "Shashank Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0506",
+    "name": "Kamlesh Nagarkoti",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1164",
+    "name": "Washington Sundar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1021",
+    "name": "Shivam Mavi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0664",
+    "name": "Moeen Ali",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0180",
+    "name": "Ben Dwarshuis",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0807",
+    "name": "Prithvi Shaw",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0149",
+    "name": "Avesh Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0319",
+    "name": "Dushmantha Chameera",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0568",
+    "name": "Lungisani Ngidi",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0661",
+    "name": "Mitchell Santner",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0123",
+    "name": "Anukul Roy",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0647",
+    "name": "Mayank Markande",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0680",
+    "name": "Mohsin Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0930",
+    "name": "Sam Curran",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1017",
+    "name": "Shimron Hetmyer",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1015",
+    "name": "Sherfane Rutherford",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0556",
+    "name": "Liam Livingstone",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0282",
+    "name": "Darshan Nalkande",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0119",
+    "name": "Anrich Nortje",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0295",
+    "name": "Devdutt Padikkal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0378",
+    "name": "Harpreet Brar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0686",
+    "name": "Mujeeb Ur Rahman",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0875",
+    "name": "Ravi Bishnoi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0513",
+    "name": "Kartik Tyagi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1099",
+    "name": "Tom Banton",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1100",
+    "name": "Tom Curran",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0122",
+    "name": "Anuj Rawat",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0331",
+    "name": "Fabian Allen",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0045",
+    "name": "Abdul Samad",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0074",
+    "name": "Akash Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1083",
+    "name": "Tushar Deshpande",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0996",
+    "name": "Shahrukh Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0126",
+    "name": "Arjun Tendulkar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0620",
+    "name": "Manimaran Siddharth",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0571",
+    "name": "Marco Jansen",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0863",
+    "name": "Rajat Patidar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1124",
+    "name": "Vaibhav Arora",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1133",
+    "name": "Venkatesh Iyer",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1153",
+    "name": "Vishnu Vinod",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "WK",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1187",
+    "name": "Yudhvir Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0544",
+    "name": "Kyle Jamieson",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0458",
+    "name": "Jhye Richardson",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0062",
+    "name": "Adil Rashid",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0002",
+    "name": "Ayush Badoni",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0297",
+    "name": "Devon Conway",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0351",
+    "name": "Gerald Coetzee",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0354",
+    "name": "Glenn Phillips",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0472",
+    "name": "Josh Inglis",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "WK",
+    "base_price_cr": 0.4,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0533",
+    "name": "Kuldeep Sen",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0882",
+    "name": "Reece Topley",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1040",
+    "name": "Simarjeet Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1078",
+    "name": "Tim David",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0993",
+    "name": "Shahbaz Ahmed",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1162",
+    "name": "Wanindu Hasaranga",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0793",
+    "name": "Prasidh Krishna",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0898",
+    "name": "Romario Shepherd",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1112",
+    "name": "Umran Malik",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1180",
+    "name": "Yash Dayal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0029",
+    "name": "Aiden Markram",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0275",
+    "name": "Daniel Sams",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0856",
+    "name": "Raj Angad Bawa",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0864",
+    "name": "Rajvardhan Hangargekar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0791",
+    "name": "Prashant Solanki",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0336",
+    "name": "Finn Allen",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0710",
+    "name": "Nathan Ellis",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1.25,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0610",
+    "name": "Maheesh Theekshana",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0136",
+    "name": "Ashok Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0334",
+    "name": "Fazalhaq Farooqi",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1097",
+    "name": "Tim Seifert",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0735",
+    "name": "Noor Ahmad",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0071",
+    "name": "Akash Deep",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0093",
+    "name": "Aman Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0133",
+    "name": "Aryan Juyal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0145",
+    "name": "Atharva Taide",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0569",
+    "name": "Luvnith Sisodia",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0689",
+    "name": "Mukesh Choudhary",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0981",
+    "name": "Saurabh Dubey",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1136",
+    "name": "Vicky Ostwal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0379",
+    "name": "Harry Brook",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0690",
+    "name": "Mukesh Kumar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1168",
+    "name": "Will Jacks",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0780",
+    "name": "Phil Salt",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0076",
+    "name": "Akeal Hosein",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0731",
+    "name": "Nishant Sindhu",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0315",
+    "name": "Donovan Ferreira",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "uncapped",
+    "role": "WK",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1183",
+    "name": "Yash Thakur",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.4,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0069",
+    "name": "Ajay Mandal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0539",
+    "name": "Kunal Rathore",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "WK",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0624",
+    "name": "Manoj Bhandage",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0677",
+    "name": "Mohit Rathee",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0725",
+    "name": "Nehal Wadhera",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0733",
+    "name": "Nitish Kumar Reddy",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "WK",
+    "base_price_cr": 0.2,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0998",
+    "name": "Shaik Rasheed",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1068",
+    "name": "Suyash Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0384",
+    "name": "Harshit Rana",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1044",
+    "name": "Spencer Johnson",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0962",
+    "name": "Sameer Rizvi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0537",
+    "name": "Kumar Kushagra",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0738",
+    "name": "Nuwan Thushara",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0894",
+    "name": "Robin Minz",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1066",
+    "name": "Sushant Mishra",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0178",
+    "name": "Ben Duckett",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0441",
+    "name": "Jamie Overton",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0847",
+    "name": "Rachin Ravindra",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0155",
+    "name": "Azmatullah Omarzai",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0204",
+    "name": "Brydon Carse",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0564",
+    "name": "Lizaad Williams",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0566",
+    "name": "Luke Wood",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0643",
+    "name": "Matthew Short",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1106",
+    "name": "Tristan Stubbs",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0082",
+    "name": "Akshat Raghuwanshi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0106",
+    "name": "Angkrish Raghuvanshi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0121",
+    "name": "Anshul Kamboj",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0131",
+    "name": "Arshin Kulkarni",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0139",
+    "name": "Ashwani Kumar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0144",
+    "name": "Atharva Ankolekar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0301",
+    "name": "Digvesh Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0361",
+    "name": "Gurnoor Singh Brar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0434",
+    "name": "Jake Fraser-Mcgurk",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0542",
+    "name": "Kwena Maphaka",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0616",
+    "name": "Manav Suthar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0628",
+    "name": "Manvanth Kumar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0697",
+    "name": "Musheer Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0713",
+    "name": "Naman Dhir",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0810",
+    "name": "Priyansh Arya",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0867",
+    "name": "Ramandeep Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0958",
+    "name": "Sakib Hussain",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1001",
+    "name": "Shamar Joseph",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1064",
+    "name": "Suryansh Shedge",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0055",
+    "name": "Abishek Porel",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0849",
+    "name": "Rahmanullah Gurbaz",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1142",
+    "name": "Vijaykumar Vyshak",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0956",
+    "name": "Sai Sudharsan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0873",
+    "name": "Rasikh Salam",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0524",
+    "name": "Khaleel Ahmed",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 2,
+    "auction_set": "MARQUEE_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0052",
+    "name": "Abhinav Manohar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0429",
+    "name": "Jacob Bethell",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.25,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0955",
+    "name": "Sai Kishore",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0129",
+    "name": "Arshad Khan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0043",
+    "name": "Aaron Hardie",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 1.25,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0072",
+    "name": "Akash Madhwal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0328",
+    "name": "Eshan Malinga",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1126",
+    "name": "Vaibhav Suryavanshi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0907",
+    "name": "Ryan Rickelton",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 1,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1173",
+    "name": "Xavier Bartlett",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0505",
+    "name": "Kamindu Mendis",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0512",
+    "name": "Karim Janat",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0640",
+    "name": "Matthew Breetzke",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.75,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1128",
+    "name": "Vansh Bedi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1147",
+    "name": "Vipraj Nigam",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0609",
+    "name": "Madhav Tiwari",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1196",
+    "name": "Zeeshan Ansari",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0051",
+    "name": "Abhinandan Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0108",
+    "name": "Aniket Verma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0185",
+    "name": "Bevon Jacobs",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0529",
+    "name": "Krishnan Shrijith",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0536",
+    "name": "Kumar Kartikeya",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0804",
+    "name": "Prince Yadav",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0813",
+    "name": "Pyla Avinash",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0866",
+    "name": "Ramakrishna Ghosh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0979",
+    "name": "Satyanarayana Raju",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BOWL",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1070",
+    "name": "Swastik Chikara",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "BAT",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET1",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1105",
+    "name": "Tripurana Vijay",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1138",
+    "name": "Vignesh Puthur",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "uncapped",
+    "role": "AR",
+    "base_price_cr": 0.3,
+    "auction_set": "UNCAPPED_SET2",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0147",
+    "name": "Auqib Nabi",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0773",
+    "name": "Pathum Nissanka",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0245",
+    "name": "Cooper Connolly",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0427",
+    "name": "Jack Edwards",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1092",
+    "name": "Tejasvi Singh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0430",
+    "name": "Jacob Duffy",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0959",
+    "name": "Salil Arora",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0715",
+    "name": "Naman Tiwari",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0471",
+    "name": "Jordan Cox",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "WK",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1195",
+    "name": "Zak Foulkes",
+    "nationality": "Overseas",
+    "is_overseas": true,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0094",
+    "name": "Aman Rao",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0097",
+    "name": "Amit Kumar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0203",
+    "name": "Brijesh Sharma",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0271",
+    "name": "Daksh Kamra",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0277",
+    "name": "Danish Malewar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0508",
+    "name": "Kanishk Chouhan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0528",
+    "name": "Krains Fuletra",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0648",
+    "name": "Mayank Rawat",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0669",
+    "name": "Mohammed Izhar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0744",
+    "name": "Onkar Tarmale",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0785",
+    "name": "Praful Hinge",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0805",
+    "name": "Prithvi Raj",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BOWL",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0954",
+    "name": "Sahil Parekh",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0977",
+    "name": "Sarthak Ranjan",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P0978",
+    "name": "Satvik Deswal",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1022",
+    "name": "Shivang Kumar",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1139",
+    "name": "Vihaan Malhotra",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1151",
+    "name": "Vishal Nishad",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "AR",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  },
+  {
+    "id": "P1182",
+    "name": "Yash Raj Punja",
+    "nationality": "Indian",
+    "is_overseas": false,
+    "capped_status": "capped",
+    "role": "BAT",
+    "base_price_cr": 0.5,
+    "auction_set": "CAPPED",
+    "contract_type_2026": "AUCTION"
+  }
+]
