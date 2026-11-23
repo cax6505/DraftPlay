@@ -1,0 +1,318 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { useAuction } from "./AuctionContext";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { MessageSquare, Users, CheckCircle2, MessageCircle, Send, ShieldCheck, Loader2 } from "lucide-react";
+import { TEAM_MAP, formatPriceCr } from "@/lib/auction-engine";
+import { Badge } from "@/components/ui/badge";
+import { PlayerAvatar } from "@/components/ui/PlayerAvatar";
+import { supabase } from "@/lib/supabase";
+
+export function AuctionTabs() {
+  const { logs, chatMessages, sendChatMessage, claimedTeams, onlineUsers, loadSquad, playerTeam, room, soldPlayerIds } = useAuction();
+  const [activeTab, setActiveTab] = useState("chat");
+  const [chatInput, setChatInput] = useState("");
+  const [mySquad, setMySquad] = useState<any[]>([]);
+  const [loadingSquad, setLoadingSquad] = useState(false);
+
+  // Fetch my squad when tab is active or soldPlayerIds changes
+  useEffect(() => {
+    if (!playerTeam || !room?.id) return;
+
+    const fetchMySquad = async () => {
+      setLoadingSquad(true);
+      const { data: sales } = await supabase
+        .from("room_sold_players")
+        .select("player_id, sold_price_cr, is_overseas")
+        .eq("room_id", room.id)
+        .eq("team_id", playerTeam);
+
+      if (sales && sales.length > 0) {
+        const playerIds = sales.map(s => s.player_id);
+        const { data: playerDetails } = await supabase
+          .from("players")
+          .select("id, name, role, is_overseas")
+          .in("id", playerIds);
+
+        const merged = sales.map(sale => {
+          const detail = playerDetails?.find(p => p.id === sale.player_id);
+          return {
+            id: sale.player_id,
+            name: detail?.name || "Unknown",
+            role: detail?.role || "N/A",
+            is_overseas: detail?.is_overseas || sale.is_overseas,
+            sold_price_cr: sale.sold_price_cr,
+          };
+        });
+        setMySquad(merged);
+      } else {
+        setMySquad([]);
+      }
+      setLoadingSquad(false);
+    };
+
+    fetchMySquad();
+  }, [playerTeam, room?.id, soldPlayerIds]);
+
+  // Helper to strip emojis for a cleaner feed
+  const stripEmojis = (str: string) => str.replace(/[\u1000-\uFFFF]+/g, '').trim();
+
+  const handleSendChat = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!chatInput.trim()) return;
+    sendChatMessage(chatInput.trim());
+    setChatInput("");
+  };
+
+  return (
+    <div className="w-full glass-card rounded-[24px] flex flex-col overflow-hidden min-h-[420px] animate-fade-in shadow-2xl border border-white/10">
+      
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full flex flex-col">
+        {/* Header Tabs */}
+        <div className="border-b border-white/[0.06] bg-black/50 shrink-0 overflow-x-auto no-scrollbar px-2">
+          <TabsList variant="underline" className="w-full h-14 min-w-max flex justify-start sm:justify-center gap-2 sm:gap-8">
+            <TabsTrigger variant="underline" value="chat" className="px-5 shrink-0 h-full gap-2 font-mono text-xs uppercase font-bold tracking-wider">
+              <MessageCircle className="h-4 w-4 text-amber-400" /> Room Chat
+            </TabsTrigger>
+            <TabsTrigger variant="underline" value="activity" className="px-5 shrink-0 h-full gap-2 font-mono text-xs uppercase font-bold tracking-wider">
+              <MessageSquare className="h-4 w-4 text-blue-400" /> Activity Feed
+            </TabsTrigger>
+            <TabsTrigger variant="underline" value="squad" className="px-5 shrink-0 h-full gap-2 font-mono text-xs uppercase font-bold tracking-wider relative">
+              <Users className="h-4 w-4 text-emerald-400" /> Franchises
+              <div className={`absolute top-2 right-2 h-2.5 w-2.5 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)] sm:hidden ${onlineUsers.length > 0 ? 'block' : 'hidden'}`} />
+              <Badge variant="outline" className="ml-1 bg-black/50 text-[9px] shadow-inner border-white/10 hidden sm:inline-flex">
+                {onlineUsers.length} Online
+              </Badge>
+            </TabsTrigger>
+            {playerTeam && (
+              <TabsTrigger variant="underline" value="mysquad" className="px-5 shrink-0 h-full gap-2 font-mono text-xs uppercase font-bold tracking-wider">
+                <ShieldCheck className="h-4 w-4 text-purple-400" /> My Squad
+                {mySquad.length > 0 && (
+                  <Badge variant="outline" className="ml-1 bg-amber-500/10 border-amber-500/20 text-amber-400 text-[9px] shadow-inner hidden sm:inline-flex">
+                    {mySquad.length}
+                  </Badge>
+                )}
+              </TabsTrigger>
+            )}
+          </TabsList>
+        </div>
+
+        {/* Content Area */}
+        <div className="flex-1 bg-[#09090b]/60 p-4 min-h-[360px] flex flex-col">
+          {activeTab === "chat" ? (
+            <div className="flex flex-col h-[360px]">
+              <div className="flex-1 overflow-y-auto space-y-3 mb-4 pr-1 flex flex-col">
+                 {chatMessages.length === 0 && (
+                   <div className="h-full flex flex-col items-center justify-center text-zinc-500 py-12 m-auto">
+                      <MessageCircle className="h-8 w-8 mb-3 opacity-20 text-amber-400" />
+                      <p className="text-[11px] font-mono tracking-widest uppercase">No messages yet. Start strategizing with room members!</p>
+                   </div>
+                 )}
+                 <div className="mt-auto">
+                   {chatMessages.map((msg, i) => (
+                     <div key={msg.id} className="flex gap-2.5 animate-fade-in group mb-3">
+                       <div className="h-7 w-7 rounded border border-white/5 bg-zinc-800 flex items-center justify-center shrink-0 font-bold text-[10px] text-white shadow-inner uppercase">
+                         {msg.sender.substring(0,2)}
+                       </div>
+                       <div className="flex flex-col min-w-0">
+                         <div className="flex items-center gap-2 mb-0.5">
+                           <span className="text-[11px] font-bold text-zinc-300">{msg.sender}</span>
+                           <span className="text-[9px] text-zinc-600 font-mono">{new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+                         </div>
+                         <p className="text-sm text-zinc-400 break-words leading-snug">{msg.text}</p>
+                       </div>
+                     </div>
+                   ))}
+                 </div>
+              </div>
+              <form onSubmit={handleSendChat} className="mt-auto shrink-0 relative">
+                 <input 
+                    type="text" 
+                    value={chatInput} 
+                    onChange={e => setChatInput(e.target.value)}
+                    placeholder="Send a message to the room..." 
+                    className="w-full bg-black/60 border border-white/[0.06] rounded-xl pl-4 pr-12 py-3 text-sm text-white focus:outline-none focus:border-amber-500/50 focus:bg-black/80 transition-all shadow-inner"
+                 />
+                 <button type="submit" disabled={!chatInput.trim()} className="absolute right-1.5 top-1/2 -translate-y-1/2 p-2 text-amber-500 disabled:opacity-30 disabled:cursor-not-allowed hover:bg-amber-500/10 rounded-lg transition-colors">
+                    <Send className="h-4 w-4" />
+                 </button>
+              </form>
+            </div>
+          ) : activeTab === "activity" ? (
+            <div className="flex flex-col gap-2.5 h-[360px] overflow-y-auto pr-1">
+              {logs.length === 0 && (
+                <div className="h-full flex flex-col items-center justify-center text-zinc-500 py-12">
+                  <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse mb-3" />
+                  <p className="text-[11px] font-mono tracking-widest uppercase">System connected. Waiting for auction...</p>
+                </div>
+              )}
+              {/* React rendering reversed list so latest is always at the top */}
+              {[...logs].reverse().map((log: any) => (
+                <div key={log.id} className="flex items-start gap-2 bg-transparent border-b border-border/5 px-2 py-1.5 hover:bg-white/[0.01] transition-colors rounded-none animate-fade-in">
+                  <div className={`mt-0.5 shrink-0 flex items-center justify-center h-4 w-4 rounded-sm ${
+                    log.type === "sys" ? "bg-amber-500/10 text-amber-500" :
+                    log.type === "join" ? "bg-green-500/10 text-green-500" :
+                    "bg-blue-500/10 text-blue-400"
+                  }`}>
+                    {log.type === "sys" && <span className="text-[8px]">•</span>}
+                    {log.type === "join" && <span className="text-[8px]">+</span>}
+                    {log.type === "bid" && <span className="text-[9px] font-black">₹</span>}
+                  </div>
+                  <span className={`text-xs leading-snug font-medium pt-[1px] ${
+                    log.type === "sys" ? "text-amber-400" : 
+                    log.type === "join" ? "text-green-400/80" : 
+                    "text-zinc-400"
+                  }`}>
+                    {stripEmojis(log.text)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          ) : activeTab === "squad" ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pb-4">
+              {claimedTeams.map((teamData: any) => {
+                const isOnline = onlineUsers.some(u => u.team === teamData.team_id);
+                const meta = TEAM_MAP.find(t => t.id === teamData.team_id);
+                return (
+                  <div 
+                    key={teamData.id} 
+                    onClick={() => loadSquad(teamData.team_id)}
+                    className="glass-card hover:glass-card-hover cursor-pointer border border-white/[0.04] p-4 rounded-xl relative group overflow-hidden transition-all duration-300 ease-spring"
+                  >
+                    {/* Background glow tint */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/[0.02] to-transparent pointer-events-none group-hover:from-white/[0.05] transition-colors" />
+                    
+                    {teamData.is_host && (
+                      <span className="absolute top-3 right-3 text-[9px] uppercase tracking-[0.2em] bg-amber-500/20 text-amber-500 font-bold px-2 py-0.5 rounded shadow-sm border border-amber-500/20">
+                        HOST
+                      </span>
+                    )}
+                    
+                    <div className="flex items-center gap-3.5 mb-4">
+                      <div className={`h-11 w-11 rounded-lg flex justify-center items-center font-black shadow-inner border border-black/20 ${meta?.color || "bg-zinc-700"} ${meta?.textDark ? "text-zinc-900" : "text-white"}`}>
+                        {teamData.team_id}
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="font-bold text-white flex items-center gap-2 text-sm tracking-tight">
+                          {teamData.user_name}
+                          <div className={`h-1.5 w-1.5 rounded-full ${isOnline ? "bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]" : "bg-white/10"}`} title={isOnline ? "Online" : "Offline"} />
+                        </span>
+                        <span className="text-xs text-amber-500 font-mono font-bold tracking-tight">
+                          {formatPriceCr(Number(teamData.purse_remaining_cr || 0))}
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center justify-between bg-black/40 px-3 py-2 rounded-lg mt-auto border border-white/[0.02] shadow-inner mb-2">
+                       <div className="flex flex-col items-center">
+                          <span className="text-[9px] text-zinc-500 font-bold uppercase tracking-widest leading-none mb-1">Squad</span>
+                          <span className="text-xs font-mono font-bold text-zinc-300">{teamData.squad_count || 0}<span className="text-zinc-600 text-[10px]">/25</span></span>
+                       </div>
+                       <div className="h-6 w-px bg-white/[0.06]" />
+                       <div className="flex flex-col items-center">
+                          <span className="text-[9px] text-zinc-500 font-bold uppercase tracking-widest leading-none mb-1">Overseas</span>
+                          <span className="text-xs font-mono font-bold text-blue-400">{teamData.overseas_count || 0}<span className="text-zinc-600 text-[10px]">/8</span></span>
+                       </div>
+                    </div>
+
+                    <div className="w-full text-center text-[10px] uppercase font-bold tracking-widest text-zinc-500 group-hover:text-amber-500 transition-colors">
+                      View full roster →
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          ) : activeTab === "mysquad" && playerTeam ? (
+            <div className="flex flex-col gap-4">
+              {loadingSquad ? (
+                <div className="flex flex-col items-center justify-center py-12">
+                  <Loader2 className="h-6 w-6 text-amber-500 animate-spin mb-3" />
+                  <p className="text-xs text-zinc-500 font-mono uppercase tracking-widest">Loading your roster...</p>
+                </div>
+              ) : mySquad.length === 0 ? (
+                <div className="flex flex-col items-center justify-center py-12">
+                  <ShieldCheck className="h-8 w-8 text-zinc-600 mb-3" />
+                  <p className="text-sm text-zinc-400 font-bold">No players purchased yet</p>
+                  <p className="text-xs text-zinc-600 mt-1">Win bids to build your squad!</p>
+                </div>
+              ) : (() => {
+                const BAT = mySquad.filter(p => ['BATSMAN', 'BAT'].includes(String(p.role).toUpperCase()));
+                const WK = mySquad.filter(p => ['WICKET KEEPER', 'WK', 'BAT/WK'].includes(String(p.role).toUpperCase()));
+                const AR = mySquad.filter(p => ['ALL-ROUNDER', 'AR'].includes(String(p.role).toUpperCase()));
+                const BOWL = mySquad.filter(p => ['BOWLER', 'BOWL'].includes(String(p.role).toUpperCase()));
+                const mappedIds = [...BAT, ...WK, ...AR, ...BOWL].map(p => p.id);
+                const OTHER = mySquad.filter(p => !mappedIds.includes(p.id));
+
+                const groups = [
+                  { title: "BATSMEN", data: BAT, color: "text-blue-400" },
+                  { title: "WICKET-KEEPERS", data: WK, color: "text-purple-400" },
+                  { title: "ALL-ROUNDERS", data: AR, color: "text-green-400" },
+                  { title: "BOWLERS", data: BOWL, color: "text-red-400" },
+                  ...(OTHER.length > 0 ? [{ title: "OTHER", data: OTHER, color: "text-zinc-400" }] : [])
+                ];
+
+                const totalSpent = mySquad.reduce((sum, p) => sum + Number(p.sold_price_cr), 0);
+                const teamRecord = claimedTeams.find(c => c.team_id === playerTeam);
+
+                return (
+                  <>
+                    {/* Summary Bar */}
+                    <div className="flex items-center justify-between bg-black/40 border border-white/[0.04] rounded-xl px-4 py-3">
+                      <div className="flex items-center gap-4">
+                        <div className="flex flex-col">
+                          <span className="text-[9px] text-zinc-500 font-bold uppercase tracking-widest">Players</span>
+                          <span className="text-sm font-mono font-bold text-white">{mySquad.length}<span className="text-zinc-600">/25</span></span>
+                        </div>
+                        <div className="h-6 w-px bg-white/[0.06]" />
+                        <div className="flex flex-col">
+                          <span className="text-[9px] text-zinc-500 font-bold uppercase tracking-widest">Overseas</span>
+                          <span className="text-sm font-mono font-bold text-blue-400">{mySquad.filter(p => p.is_overseas).length}<span className="text-zinc-600">/8</span></span>
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-end">
+                        <span className="text-[9px] text-zinc-500 font-bold uppercase tracking-widest">Purse Left</span>
+                        <span className="text-sm font-mono font-bold text-amber-500">{formatPriceCr(Number(teamRecord?.purse_remaining_cr || 0))}</span>
+                      </div>
+                    </div>
+
+                    {/* Grouped Players */}
+                    {groups.filter(g => g.data.length > 0).map(group => (
+                      <div key={group.title}>
+                        <h4 className={`text-[10px] font-black uppercase tracking-widest mb-2 flex items-center gap-2 ${group.color}`}>
+                          {group.title}
+                          <span className="bg-white/[0.05] px-1.5 py-0.5 rounded text-white text-[9px]">{group.data.length}</span>
+                        </h4>
+                        <div className="space-y-1.5">
+                          {group.data.sort((a: any, b: any) => Number(b.sold_price_cr) - Number(a.sold_price_cr)).map((p: any) => (
+                            <div key={p.id} className="flex items-center justify-between bg-black/30 border border-white/[0.03] rounded-lg px-3 py-2 hover:bg-white/[0.02] transition-colors">
+                              <div className="flex items-center gap-2 min-w-0">
+                                <PlayerAvatar
+                                  playerId={p.id}
+                                  playerName={p.name}
+                                  size="xs"
+                                />
+                                <span className="text-sm font-bold text-white truncate">{p.name}</span>
+                                {p.is_overseas && <span className="text-[8px] text-orange-400 bg-orange-500/10 px-1.5 py-0.5 rounded font-bold border border-orange-500/20 shrink-0">OS</span>}
+                              </div>
+                              <span className="text-xs font-mono font-bold text-amber-500 shrink-0 ml-2">{formatPriceCr(Number(p.sold_price_cr))}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </>
+                );
+              })()}
+            </div>
+          ) : null}
+        </div>
+      </Tabs>
+
+      {/* Footer Connection Status */}
+      <div className="px-4 py-3 border-t border-white/[0.04] bg-black/40 shrink-0 flex items-center gap-2 text-[11px] font-mono tracking-widest uppercase text-zinc-500 font-semibold shadow-inner">
+        <CheckCircle2 className="h-3.5 w-3.5 text-green-500" /> Live Web Socket Connected
+      </div>
+    </div>
+  );
+}
